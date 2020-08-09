@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353A9B730D91DF72C45118B8 /* Pods_SampleRxDataSorce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CAD6B9CA110C9EBAE98888 /* Pods_SampleRxDataSorce.framework */; };
 		FB68878C24DFDF4900CF1424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68878B24DFDF4900CF1424 /* AppDelegate.swift */; };
 		FB68878E24DFDF4900CF1424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68878D24DFDF4900CF1424 /* SceneDelegate.swift */; };
 		FB68879024DFDF4900CF1424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68878F24DFDF4900CF1424 /* ViewController.swift */; };
 		FB68879324DFDF4900CF1424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB68879124DFDF4900CF1424 /* Main.storyboard */; };
 		FB68879524DFDF4B00CF1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68879424DFDF4B00CF1424 /* Assets.xcassets */; };
 		FB68879824DFDF4B00CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB68879624DFDF4B00CF1424 /* LaunchScreen.storyboard */; };
+		FB6887A524DFF92900CF1424 /* SampleWithTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */; };
+		FB6887A724DFF93300CF1424 /* SampleWithTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CAD6B9CA110C9EBAE98888 /* Pods_SampleRxDataSorce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleRxDataSorce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F9F0C9F45565E6C6A791A4 /* Pods-SampleRxDataSorce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRxDataSorce.release.xcconfig"; path = "Target Support Files/Pods-SampleRxDataSorce/Pods-SampleRxDataSorce.release.xcconfig"; sourceTree = "<group>"; };
+		85ECA065101A7F168E56E31D /* Pods-SampleRxDataSorce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRxDataSorce.debug.xcconfig"; path = "Target Support Files/Pods-SampleRxDataSorce/Pods-SampleRxDataSorce.debug.xcconfig"; sourceTree = "<group>"; };
 		FB68878824DFDF4900CF1424 /* SampleRxDataSorce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRxDataSorce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB68878B24DFDF4900CF1424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB68878D24DFDF4900CF1424 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		FB68879424DFDF4B00CF1424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB68879724DFDF4B00CF1424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB68879924DFDF4B00CF1424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWithTableViewController.swift; sourceTree = "<group>"; };
+		FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleWithTableViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353A9B730D91DF72C45118B8 /* Pods_SampleRxDataSorce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57CC3F462C33FE5A0590E447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD6B9CA110C9EBAE98888 /* Pods_SampleRxDataSorce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF137E6DD478838254CDFD72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85ECA065101A7F168E56E31D /* Pods-SampleRxDataSorce.debug.xcconfig */,
+				52F9F0C9F45565E6C6A791A4 /* Pods-SampleRxDataSorce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB68877F24DFDF4900CF1424 = {
 			isa = PBXGroup;
 			children = (
 				FB68878A24DFDF4900CF1424 /* SampleRxDataSorce */,
 				FB68878924DFDF4900CF1424 /* Products */,
+				CF137E6DD478838254CDFD72 /* Pods */,
+				57CC3F462C33FE5A0590E447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,8 @@
 		FB68878A24DFDF4900CF1424 /* SampleRxDataSorce */ = {
 			isa = PBXGroup;
 			children = (
+				FB6887A324DFF90800CF1424 /* SampleWithCollectionView */,
+				FB6887A224DFF8E700CF1424 /* SampleWithTableView */,
 				FB68878B24DFDF4900CF1424 /* AppDelegate.swift */,
 				FB68878D24DFDF4900CF1424 /* SceneDelegate.swift */,
 				FB68878F24DFDF4900CF1424 /* ViewController.swift */,
@@ -67,6 +97,22 @@
 			path = SampleRxDataSorce;
 			sourceTree = "<group>";
 		};
+		FB6887A224DFF8E700CF1424 /* SampleWithTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */,
+				FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */,
+			);
+			path = SampleWithTableView;
+			sourceTree = "<group>";
+		};
+		FB6887A324DFF90800CF1424 /* SampleWithCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SampleWithCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB68879C24DFDF4B00CF1424 /* Build configuration list for PBXNativeTarget "SampleRxDataSorce" */;
 			buildPhases = (
+				38B27D9BB7D498ADA174605F /* [CP] Check Pods Manifest.lock */,
 				FB68878424DFDF4900CF1424 /* Sources */,
 				FB68878524DFDF4900CF1424 /* Frameworks */,
 				FB68878624DFDF4900CF1424 /* Resources */,
+				2D4C1BAC5566BC5419FF5E80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6887A724DFF93300CF1424 /* SampleWithTableViewController.storyboard in Resources */,
 				FB68879824DFDF4B00CF1424 /* LaunchScreen.storyboard in Resources */,
 				FB68879524DFDF4B00CF1424 /* Assets.xcassets in Resources */,
 				FB68879324DFDF4900CF1424 /* Main.storyboard in Resources */,
@@ -132,6 +181,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4C1BAC5566BC5419FF5E80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRxDataSorce/Pods-SampleRxDataSorce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRxDataSorce/Pods-SampleRxDataSorce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleRxDataSorce/Pods-SampleRxDataSorce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B27D9BB7D498ADA174605F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleRxDataSorce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB68878424DFDF4900CF1424 /* Sources */ = {
@@ -141,6 +232,7 @@
 				FB68879024DFDF4900CF1424 /* ViewController.swift in Sources */,
 				FB68878C24DFDF4900CF1424 /* AppDelegate.swift in Sources */,
 				FB68878E24DFDF4900CF1424 /* SceneDelegate.swift in Sources */,
+				FB6887A524DFF92900CF1424 /* SampleWithTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		FB68879D24DFDF4B00CF1424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85ECA065101A7F168E56E31D /* Pods-SampleRxDataSorce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +392,7 @@
 		};
 		FB68879E24DFDF4B00CF1424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F9F0C9F45565E6C6A791A4 /* Pods-SampleRxDataSorce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
