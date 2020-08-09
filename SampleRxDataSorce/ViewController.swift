@@ -11,7 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet private var tableView: UITableView!
-    private var items = ["TableView", "CollectionView"]
+    private var items = ["TableView(Simple)", "TableView", "CollectionView"]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        navigationItem.title = "SampleRxDataSource"
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -29,7 +34,9 @@ extension ViewController: UITableViewDelegate {
             let vc = sb.instantiateViewController(withIdentifier: "SampleWithTableViewController") as! SampleWithTableViewController
             navigationController?.pushViewController(vc, animated: true)
         } else if indexPath.row == 1 {
-            
+            // TODO: TableView(複数Sectionに複数Item)作成時に対応
+        } else if indexPath.row == 2 {
+            // TODO: CollectionView画面作成時に対応
         }
     }
 }

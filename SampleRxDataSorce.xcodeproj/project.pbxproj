@@ -16,6 +16,8 @@
 		FB68879824DFDF4B00CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB68879624DFDF4B00CF1424 /* LaunchScreen.storyboard */; };
 		FB6887A524DFF92900CF1424 /* SampleWithTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */; };
 		FB6887A724DFF93300CF1424 /* SampleWithTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */; };
+		FB6887A924DFFC5C00CF1424 /* FirstTableBindingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6887A824DFFC5C00CF1424 /* FirstTableBindingData.swift */; };
+		FB6887AB24DFFCBC00CF1424 /* TableSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6887AA24DFFCBC00CF1424 /* TableSectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		FB68879924DFDF4B00CF1424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWithTableViewController.swift; sourceTree = "<group>"; };
 		FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleWithTableViewController.storyboard; sourceTree = "<group>"; };
+		FB6887A824DFFC5C00CF1424 /* FirstTableBindingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableBindingData.swift; sourceTree = "<group>"; };
+		FB6887AA24DFFCBC00CF1424 /* TableSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,7 @@
 		FB6887A224DFF8E700CF1424 /* SampleWithTableView */ = {
 			isa = PBXGroup;
 			children = (
-				FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */,
-				FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */,
+				FB6887AE24E03A4C00CF1424 /* Simple */,
 			);
 			path = SampleWithTableView;
 			sourceTree = "<group>";
@@ -111,6 +114,17 @@
 			children = (
 			);
 			path = SampleWithCollectionView;
+			sourceTree = "<group>";
+		};
+		FB6887AE24E03A4C00CF1424 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				FB6887A424DFF92900CF1424 /* SampleWithTableViewController.swift */,
+				FB6887A624DFF93300CF1424 /* SampleWithTableViewController.storyboard */,
+				FB6887A824DFFC5C00CF1424 /* FirstTableBindingData.swift */,
+				FB6887AA24DFFCBC00CF1424 /* TableSectionModel.swift */,
+			);
+			path = Simple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB68879024DFDF4900CF1424 /* ViewController.swift in Sources */,
+				FB6887A924DFFC5C00CF1424 /* FirstTableBindingData.swift in Sources */,
+				FB6887AB24DFFCBC00CF1424 /* TableSectionModel.swift in Sources */,
 				FB68878C24DFDF4900CF1424 /* AppDelegate.swift in Sources */,
 				FB68878E24DFDF4900CF1424 /* SceneDelegate.swift in Sources */,
 				FB6887A524DFF92900CF1424 /* SampleWithTableViewController.swift in Sources */,
